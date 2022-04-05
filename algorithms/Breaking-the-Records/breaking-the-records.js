@@ -36,7 +36,7 @@ function breakingRecords(scores) {
     let maxbreak = 0;
     let minbreak = 0;
     
-    for(let i = 0; i < scores.length; i++) {
+    for(let i = 1; i < scores.length; i++) {
         if(scores[i] > maxscore) {
             maxscore = scores[i];
             maxbreak++;
